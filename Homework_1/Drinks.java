@@ -10,11 +10,11 @@ public class Drinks extends BaseProduct{
         return String.format("%s Объем: %s", super.getInfo(), this.volume);  
     }
 
-    public Double getExpirationDate() {
+    public Double getVolume() {
         return this.volume;
     }
 
-    public void setExpirationDate(double volume){
+    public void setVolume(double volume){
         this.volume = volume;
     }
 }
