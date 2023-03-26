@@ -89,6 +89,7 @@ public class Programm {
                     break;
                 case 7:
                     System.out.println("Выход из программы.");
+                    scanner.close();
                     break;
                 default:
                     System.out.println("Некорректный ввод, попробуйте еще раз.");
