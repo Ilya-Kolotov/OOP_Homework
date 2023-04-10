@@ -1,4 +1,4 @@
-package Homework_3;
+package Homework_3.FigureArray;
 
 import java.util.ArrayList;
 import java.util.Comparator;
